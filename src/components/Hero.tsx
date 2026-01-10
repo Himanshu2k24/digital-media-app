@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <section className="relative min-h-[90vh] flex items-center justify-center pt-20 overflow-hidden">
             {/* Background Gradient */}
             <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-black to-purple-900/20 pointer-events-none" />
             <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-20 pointer-events-none" />
@@ -22,29 +22,29 @@ export default function Hero() {
                     transition={{ duration: 0.8 }}
                 >
                     <span className="inline-block py-1 px-3 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-medium mb-6">
-                        Digital Excellence Redefined in Patna & Noida
+                        #1 Security System Supplier in Patna
                     </span>
-                    <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-200 to-gray-400">
-                        Transform Your <br />
-                        <span className="text-blue-500">Digital Presence</span>
+                    <h1 className="text-4xl md:text-7xl font-bold tracking-tight mb-8 bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-200 to-gray-400">
+                        Secure Your Assets With <br />
+                        <span className="text-blue-500">Z Plus Smart Vision</span>
                     </h1>
-                    <p className="text-xl md:text-2xl text-gray-400 mb-10 max-w-3xl mx-auto leading-relaxed">
-                        We are Digital Media 21. From cutting-edge Websites & SEO to secure CCTV Installation. We build the future of your business.
+                    <p className="text-lg md:text-2xl text-gray-400 mb-10 max-w-3xl mx-auto leading-relaxed">
+                        Trusted CCTV Installation & Smart Security Solutions in Danapur, Patna. Home, Office, Shop, & Factory Protection.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Link
-                            href="#contact"
+                            href="/contact"
                             className="group relative px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-bold text-lg transition-all flex items-center gap-2"
                         >
-                            Start Project
+                            Get Free Quote
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                         </Link>
                         <Link
-                            href="#services"
+                            href="/services"
                             className="px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white rounded-full font-bold text-lg transition-all backdrop-blur-sm"
                         >
-                            Our Services
+                            View Services
                         </Link>
                     </div>
                 </motion.div>
@@ -57,9 +57,9 @@ export default function Hero() {
                     className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-6"
                 >
                     {[
-                        { icon: Globe, title: "Web Design", desc: "Responsive & Modern" },
-                        { icon: Shield, title: "CCTV Security", desc: "Installation & Service" },
-                        { icon: Search, title: "SEO Experts", desc: "Rank #1 on Google" },
+                        { icon: Shield, title: "HD/IP CCTV", desc: "Crystal Clear Surveillance" },
+                        { icon: Globe, title: "Smart Access", desc: "Biometric & Door Locks" },
+                        { icon: Search, title: "24/7 Support", desc: "Maintenance & Repair" },
                     ].map((item, idx) => (
                         <div key={idx} className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm hover:bg-white/10 transition-colors">
                             <item.icon className="w-8 h-8 text-blue-500 mx-auto mb-4" />

@@ -8,9 +8,9 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
     { name: "Home", href: "/" },
-    { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Contact", href: "#contact" },
+    { name: "About", href: "/about" },
+    { name: "Services", href: "/services" },
+    { name: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -33,8 +33,8 @@ export default function Navbar() {
             )}
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
-                <Link href="/" className="text-2xl font-bold tracking-tighter text-white">
-                    Digital<span className="text-blue-500">Media</span>21
+                <Link href="/" className="text-xl md:text-2xl font-bold tracking-tighter text-white">
+                    Z Plus<span className="text-blue-500">SmartVision</span>
                 </Link>
 
                 {/* Desktop Nav */}
@@ -49,10 +49,10 @@ export default function Navbar() {
                         </Link>
                     ))}
                     <Link
-                        href="#contact"
+                        href="/contact"
                         className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-medium transition-all transform hover:scale-105"
                     >
-                        Get Started
+                        Get Quote
                     </Link>
                 </div>
 
@@ -86,11 +86,11 @@ export default function Navbar() {
                                 </Link>
                             ))}
                             <Link
-                                href="#contact"
+                                href="/contact"
                                 onClick={() => setIsOpen(false)}
                                 className="flex items-center justify-center space-x-2 bg-blue-600 text-white py-3 rounded-lg font-medium"
                             >
-                                <span>Get Started</span>
+                                <span>Get Quote</span>
                                 <ChevronRight size={16} />
                             </Link>
                         </div>

@@ -7,35 +7,27 @@ export default function Contact() {
     return (
         <footer id="contact" className="bg-black pt-24 pb-12 border-t border-white/10">
             <div className="container mx-auto px-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-20">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                     >
-                        <h2 className="text-4xl font-bold text-white mb-6">Let's Work Together</h2>
+                        <h2 className="text-4xl font-bold text-white mb-6">Get in Touch</h2>
                         <p className="text-gray-400 mb-10 text-lg">
-                            Ready to upgrade your business security or digital presence? Contact us today for a free consultation.
+                            Secure your property with Z Plus Smart Vision. Contact us for installation, repair, or a free consultation.
                         </p>
 
-                        <div className="space-y-6">
+                        <div className="space-y-8">
                             <div className="flex items-start gap-4">
                                 <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center shrink-0">
                                     <Phone className="text-blue-500" />
                                 </div>
                                 <div>
                                     <h3 className="text-white font-bold mb-1">Call Us</h3>
-                                    <p className="text-gray-400">+91 9905179259</p>
-                                </div>
-                            </div>
-
-                            <div className="flex items-start gap-4">
-                                <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center shrink-0">
-                                    <Mail className="text-blue-500" />
-                                </div>
-                                <div>
-                                    <h3 className="text-white font-bold mb-1">Email Us</h3>
-                                    <p className="text-gray-400">info@digitalmedia21.com</p>
+                                    <a href="tel:+919288661426" className="text-gray-400 hover:text-blue-400 transition-colors">
+                                        +91 9288 661 426
+                                    </a>
                                 </div>
                             </div>
 
@@ -45,9 +37,23 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="text-white font-bold mb-1">Visit Us</h3>
-                                    <p className="text-gray-400">Noida & Patna Offices</p>
+                                    <p className="text-gray-400 leading-relaxed">
+                                        Balaji Apartment, Judge Colony,<br />
+                                        Kaliket Nagar, Danapur,<br />
+                                        Patna, Bihar 801503
+                                    </p>
                                 </div>
                             </div>
+
+                            {/* Added WhatsApp Button logic implicitly via the phone link or we could add a button */}
+                            <a
+                                href="https://wa.me/+919288661426"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center justify-center w-full sm:w-auto px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-xl font-bold transition-all"
+                            >
+                                Chat on WhatsApp
+                            </a>
                         </div>
                     </motion.div>
 
@@ -56,56 +62,31 @@ export default function Contact() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.2 }}
-                        className="bg-neutral-900/50 p-8 rounded-3xl border border-white/5"
+                        className="flex flex-col gap-6"
                     >
-                        <form className="space-y-6">
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <div>
-                                    <label className="block text-sm font-medium text-gray-400 mb-2">Name</label>
-                                    <input
-                                        type="text"
-                                        className="w-full px-4 py-3 rounded-xl bg-black border border-white/10 text-white focus:border-blue-500 focus:outline-none transition-colors"
-                                        placeholder="John Doe"
-                                    />
-                                </div>
-                                <div>
-                                    <label className="block text-sm font-medium text-gray-400 mb-2">Phone</label>
-                                    <input
-                                        type="tel"
-                                        className="w-full px-4 py-3 rounded-xl bg-black border border-white/10 text-white focus:border-blue-500 focus:outline-none transition-colors"
-                                        placeholder="+91..."
-                                    />
-                                </div>
-                            </div>
-                            <div>
-                                <label className="block text-sm font-medium text-gray-400 mb-2">Email</label>
-                                <input
-                                    type="email"
-                                    className="w-full px-4 py-3 rounded-xl bg-black border border-white/10 text-white focus:border-blue-500 focus:outline-none transition-colors"
-                                    placeholder="john@example.com"
-                                />
-                            </div>
-                            <div>
-                                <label className="block text-sm font-medium text-gray-400 mb-2">Message</label>
-                                <textarea
-                                    rows={4}
-                                    className="w-full px-4 py-3 rounded-xl bg-black border border-white/10 text-white focus:border-blue-500 focus:outline-none transition-colors"
-                                    placeholder="How can we help you?"
-                                />
-                            </div>
-                            <button
-                                type="submit"
-                                className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-all transform hover:scale-[1.02]"
-                            >
-                                Send Message
-                            </button>
-                        </form>
+                        {/* Map Integration */}
+                        <div className="w-full h-[400px] rounded-3xl overflow-hidden border border-white/10 bg-neutral-900">
+                            <iframe
+                                src="https://www.google.com/maps?q=Balaji+Apartment,Judge+Colony,Kaliket+Nagar,Danapur,Patna,Bihar&output=embed"
+                                width="100%"
+                                height="100%"
+                                style={{ border: 0 }}
+                                allowFullScreen={true}
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                                className="grayscale hover:grayscale-0 transition-all duration-500"
+                                title="Z Plus Smart Vision Location"
+                            />
+                        </div>
+                        <p className="text-xs text-gray-500 text-center mt-2">
+                            *Map shows location of Balaji Apartment, Danapur
+                        </p>
                     </motion.div>
                 </div>
 
                 <div className="text-center pt-8 border-t border-white/5">
                     <p className="text-gray-500 text-sm">
-                        © {new Date().getFullYear()} Digital Media 21. All rights reserved.
+                        © {new Date().getFullYear()} Z Plus Smart Vision CCTV. All rights reserved.
                     </p>
                 </div>
             </div>
