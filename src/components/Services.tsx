@@ -9,51 +9,51 @@ import {
 const allServices = [
     {
         icon: Camera,
-        title: "CCTV Installation",
-        description: "HD/IP Cameras, Dome & Bullet setups for home and office.",
-        category: "Surveillance"
+        title: "CCTV Camera Supply & Dealership",
+        description: "Official dealer for genuine HD, IP, and Analog cameras. Authorized CP PLUS partner.",
+        category: "Sales"
+    },
+    {
+        icon: Wrench,
+        title: "Professional Installation",
+        description: "Expert installation services for residential, commercial, and industrial properties.",
+        category: "Service"
+    },
+    {
+        icon: ShieldCheck,
+        title: "End-to-End Surveillance",
+        description: "Complete security solutions tailored to your specific safety requirements.",
+        category: "Solutions"
+    },
+    {
+        icon: Users,
+        title: "Expert Consultation",
+        description: "Professional advice to help you choose the right security system for your needs.",
+        category: "Consulting"
+    },
+    {
+        icon: Server,
+        title: "After-Sales Support",
+        description: "Dependable maintenance and support services to keep your system running 24/7.",
+        category: "Support"
     },
     {
         icon: Wifi,
         title: "Wireless Systems",
-        description: "Cable-free security solutions for modern setups.",
+        description: "Advanced cable-free security configurations for modern homes and offices.",
         category: "Connectivity"
     },
     {
-        icon: Server,
-        title: "DVR/NVR Setup",
-        description: "Professional recording and storage configuration.",
-        category: "Storage"
-    },
-    {
-        icon: Wrench,
-        title: "Repair & Maintenance",
-        description: "Fixing night vision, wiring, and power supply issues.",
-        category: "Service"
-    },
-    {
         icon: Key,
-        title: "Access Control",
-        description: "Biometric attendance machines and smart door locks.",
+        title: "Biometric & Access Control",
+        description: "Smart attendance machines and secure door lock systems.",
         category: "Security"
     },
     {
         icon: Bell,
-        title: "Security Alarms",
-        description: "Fire alarms, burglar alarms, and motion sensors.",
-        category: "Safety"
-    },
-    {
-        icon: ShieldCheck,
-        title: "Commercial Security",
-        description: "Comprehensive factory and warehouse security systems.",
-        category: "Business"
-    },
-    {
-        icon: Users,
-        title: "Video Door Phones",
-        description: "See who is at the door before you answer.",
-        category: "Home"
+        title: "Cost-Effective Systems",
+        description: "High-performance security solutions designed to fit your budget.",
+        category: "Value"
     }
 ];
 

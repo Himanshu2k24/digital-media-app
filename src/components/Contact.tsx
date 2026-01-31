@@ -47,7 +47,7 @@ export default function Contact() {
 
                             {/* Added WhatsApp Button logic implicitly via the phone link or we could add a button */}
                             <a
-                                href="https://wa.me/+919288661426"
+                                href="https://wa.me/919288661426?text=Hmko%20aapse%20Camera%20lagawana%20hai"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center justify-center w-full sm:w-auto px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-xl font-bold transition-all"

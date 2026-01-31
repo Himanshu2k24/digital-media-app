@@ -37,7 +37,7 @@ export default function Hero() {
                             href="/contact"
                             className="group relative px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-bold text-lg transition-all flex items-center gap-2"
                         >
-                            Get Free Quote
+                            Abhi Rate Pata Karein
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                         </Link>
                         <Link
@@ -46,6 +46,19 @@ export default function Hero() {
                         >
                             View Services
                         </Link>
+                        <a
+                            href="https://wa.me/919288661426?text=Hmko%20aapse%20Camera%20lagawana%20hai"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-8 py-4 bg-green-600 hover:bg-green-700 text-white rounded-full font-bold text-lg transition-all flex items-center gap-2"
+                        >
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                                alt="WhatsApp"
+                                className="w-6 h-6 filter brightness-0 invert"
+                            />
+                            Chat on WhatsApp
+                        </a>
                     </div>
                 </motion.div>
 

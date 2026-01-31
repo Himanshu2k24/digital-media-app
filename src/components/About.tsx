@@ -43,7 +43,7 @@ export default function AboutContent() {
                                 <Star className="text-yellow-500 fill-yellow-500" />
                                 <span className="text-white font-bold text-lg">5/5 Customer Rating</span>
                             </div>
-                            <p className="text-sm text-gray-500 italic">"14+ Users rated us 5 out of 5 for our quick service and reliability."</p>
+                            <p className="text-sm text-gray-500 italic">"24+ Users rated us 5 out of 5 for our quick service and reliability."</p>
                         </div>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

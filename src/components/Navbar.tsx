@@ -10,6 +10,7 @@ const navItems = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
+    { name: "Gallery", href: "/gallery" },
     { name: "Contact", href: "/contact" },
 ];
 
@@ -43,26 +44,51 @@ export default function Navbar() {
                         <Link
                             key={item.name}
                             href={item.href}
+                            target={item.href === "/" ? "_self" : "_blank"}
+                            rel="noopener noreferrer"
                             className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
                         >
                             {item.name}
                         </Link>
                     ))}
-                    <Link
-                        href="/contact"
-                        className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-medium transition-all transform hover:scale-105"
+
+                    {/* WhatsApp Button */}
+                    <a
+                        href="https://wa.me/919288661426?text=Hmko%20aapse%20Camera%20lagawana%20hai"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full text-sm font-medium transition-all transform hover:scale-105"
                     >
-                        Get Quote
-                    </Link>
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                            className="w-5 h-5 filter brightness-0 invert"
+                        />
+                        <span>WhatsApp</span>
+                    </a>
                 </div>
 
                 {/* Mobile Menu Button */}
-                <button
-                    className="md:hidden text-white"
-                    onClick={() => setIsOpen(!isOpen)}
-                >
-                    {isOpen ? <X /> : <Menu />}
-                </button>
+                <div className="flex items-center gap-4 md:hidden">
+                    <a
+                        href="https://wa.me/919288661426?text=Hmko%20aapse%20Camera%20lagawana%20hai"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-green-600 p-2 rounded-full text-white"
+                    >
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                            className="w-5 h-5 filter brightness-0 invert"
+                        />
+                    </a>
+                    <button
+                        className="text-white"
+                        onClick={() => setIsOpen(!isOpen)}
+                    >
+                        {isOpen ? <X /> : <Menu />}
+                    </button>
+                </div>
             </div>
 
             {/* Mobile Nav */}
@@ -79,6 +105,8 @@ export default function Navbar() {
                                 <Link
                                     key={item.name}
                                     href={item.href}
+                                    target={item.href === "/" ? "_self" : "_blank"}
+                                    rel="noopener noreferrer"
                                     onClick={() => setIsOpen(false)}
                                     className="text-lg font-medium text-gray-300 hover:text-white"
                                 >
@@ -90,7 +118,7 @@ export default function Navbar() {
                                 onClick={() => setIsOpen(false)}
                                 className="flex items-center justify-center space-x-2 bg-blue-600 text-white py-3 rounded-lg font-medium"
                             >
-                                <span>Get Quote</span>
+                                <span>Best Rate Janen</span>
                                 <ChevronRight size={16} />
                             </Link>
                         </div>
