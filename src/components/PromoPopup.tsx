@@ -8,8 +8,8 @@ export default function PromoPopup() {
     const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
-        // Show popup after 1.5 seconds default
-        const timer = setTimeout(() => setIsOpen(true), 1500);
+        // Show popup after 15 seconds
+        const timer = setTimeout(() => setIsOpen(true), 10000);
         return () => clearTimeout(timer);
     }, []);
 
@@ -92,7 +92,7 @@ export default function PromoPopup() {
                                     Call to Claim Offer
                                 </a>
                                 <p className="text-center text-xs text-gray-500 mt-2">
-                                    *Terms & conditions apply. While stocks last.
+                                    *Terms & conditions apply.
                                 </p>
                             </div>
                         </div>
