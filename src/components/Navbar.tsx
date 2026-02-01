@@ -46,8 +46,6 @@ export default function Navbar() {
                         <Link
                             key={item.name}
                             href={item.href}
-                            target={item.href === "/" ? "_self" : "_blank"}
-                            rel="noopener noreferrer"
                             className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
                         >
                             {item.name}
@@ -107,8 +105,6 @@ export default function Navbar() {
                                 <Link
                                     key={item.name}
                                     href={item.href}
-                                    target={item.href === "/" ? "_self" : "_blank"}
-                                    rel="noopener noreferrer"
                                     onClick={() => setIsOpen(false)}
                                     className="text-lg font-medium text-gray-300 hover:text-white"
                                 >
