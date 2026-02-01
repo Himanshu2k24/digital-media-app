@@ -129,9 +129,14 @@ export default function ServicesPage() {
                         CCTV workflow never stops. Our support team is just a call away for any troubleshooting,
                         password resets, or hardware replacements.
                     </p>
-                    <a href="tel:+919288661426" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-bold transition-all">
-                        Call Support: +91 9288 661 426
-                    </a>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <a href="tel:+919288661426" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-bold transition-all">
+                            Call Support: +91 9288 661 426
+                        </a>
+                        <a href="mailto:zplussmartvisio@gmail.com" className="bg-white/10 hover:bg-white/20 text-white px-8 py-3 rounded-full font-bold transition-all border border-white/10">
+                            Email: zplussmartvisio@gmail.com
+                        </a>
+                    </div>
                 </section>
 
             </div>

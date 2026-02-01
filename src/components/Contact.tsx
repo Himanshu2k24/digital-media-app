@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, Facebook, Youtube, Instagram } from "lucide-react";
 
 export default function Contact() {
     return (
@@ -25,8 +25,20 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="text-white font-bold mb-1">Call Us</h3>
-                                    <a href="tel:+919288661426" className="text-gray-400 hover:text-blue-400 transition-colors">
+                                    <a href="tel:+919288661426" className="block text-gray-400 hover:text-blue-400 transition-colors">
                                         +91 9288 661 426
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="flex items-start gap-4">
+                                <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center shrink-0">
+                                    <Mail className="text-blue-500" />
+                                </div>
+                                <div>
+                                    <h3 className="text-white font-bold mb-1">Email Us</h3>
+                                    <a href="mailto:zplussmartvisio@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors">
+                                        zplussmartvisio@gmail.com
                                     </a>
                                 </div>
                             </div>
@@ -85,6 +97,17 @@ export default function Contact() {
                 </div>
 
                 <div className="text-center pt-8 border-t border-white/5">
+                    <div className="flex justify-center gap-6 mb-8">
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-500 transition-colors">
+                            <Facebook size={24} />
+                        </a>
+                        <a href="https://www.instagram.com/zplussmartvision?igsh=Z2JzNnhtcWtmbm5l" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-500 transition-colors">
+                            <Instagram size={24} />
+                        </a>
+                        <a href="https://youtube.com/@zplussmartvision?si=NgFLiQ-K4Jwf9O61" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors">
+                            <Youtube size={24} />
+                        </a>
+                    </div>
                     <p className="text-gray-500 text-sm">
                         © {new Date().getFullYear()} Z Plus Smart Vision CCTV. All rights reserved.
                     </p>

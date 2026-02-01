@@ -91,6 +91,13 @@ export default function PromoPopup() {
                                     <Phone size={20} fill="currentColor" />
                                     Call to Claim Offer
                                 </a>
+                                <a
+                                    href="mailto:zplussmartvisio@gmail.com"
+                                    className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center font-bold py-4 rounded-xl transition-all flex items-center justify-center gap-2 mt-2"
+                                >
+                                    <span className="text-xl">✉️</span>
+                                    Email Us
+                                </a>
                                 <p className="text-center text-xs text-gray-500 mt-2">
                                     *Terms & conditions apply.
                                 </p>
