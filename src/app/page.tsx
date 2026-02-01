@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import PromoPopup from "@/components/PromoPopup";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
@@ -9,6 +10,7 @@ import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white selection:bg-blue-500/30">
+      <PromoPopup />
       <Navbar />
       <Hero />
 
