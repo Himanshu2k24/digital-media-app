@@ -7,6 +7,8 @@ import Testimonials from "@/components/Testimonials";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 
+import ProductSlider from "@/components/ProductSlider";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white selection:bg-blue-500/30">
@@ -37,6 +39,9 @@ export default function Home() {
           </a>
         </div>
       </section>
+
+      {/* Auto Slider Products */}
+      <ProductSlider />
 
       {/* Gallery Teaser */}
       <section className="py-20 bg-black border-t border-white/10">
