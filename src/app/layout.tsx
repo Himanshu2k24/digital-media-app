@@ -44,6 +44,52 @@ export default function RootLayout({
             gtag('config', 'G-K1QFTK9JSH');
           `}
         </Script>
+        <Script id="schema-org" type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Zplus Smart Vision",
+              "image": "https://zplussmartvision.in/logo.jpeg",
+              "@id": "https://zplussmartvision.in",
+              "url": "https://zplussmartvision.in",
+              "telephone": "+919288661426",
+              "priceRange": "₹₹",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Kaliket Nagar",
+                "addressLocality": "Danapur, Patna",
+                "addressRegion": "Bihar",
+                "postalCode": "801503",
+                "addressCountry": "IN"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 25.62, 
+                "longitude": 85.04
+              },
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "09:00",
+                "closes": "21:00"
+              },
+              "sameAs": [
+                "https://www.facebook.com/zplussmartvision",
+                "https://www.instagram.com/zplussmartvision",
+                "https://www.youtube.com/@ZPlusSmartVision"
+              ]
+            }
+          `}
+        </Script>
         <Analytics />
       </body>
     </html>

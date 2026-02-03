@@ -36,9 +36,8 @@ export default function Navbar() {
             )}
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
-                <Link href="/" className="flex items-center gap-3">
+                <Link href="/" className="flex items-center">
                     <img src="/logo.jpeg" alt="Z Plus Smart Vision" className="h-10 w-auto rounded-md" />
-                    <span className="text-xl font-bold text-white tracking-wide">Zplus Camera</span>
                 </Link>
 
                 {/* Desktop Nav */}
