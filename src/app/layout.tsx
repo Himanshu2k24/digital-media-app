@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "CCTV Camera Installation Service in Patna | Zplus Smart Vision",
   description: "Professional CCTV Installation in Patna. Authorized Hikvision & CP Plus Dealer. We offer Home CCTV Camera Setup, Shop & Office CCTV Security, and HD & IP CCTV Camera Installation. Best services by Zplus Smart Vision.",
   keywords: "CCTV Camera Installation Service in patna, Professional CCTV Installation in patna, Home CCTV Camera Setup, Shop & Office CCTV Security, Authorized Hikvision & CP Plus Dealer, HD & IP CCTV Camera Installation, Zplus Smart Vision, Security camera installation Patna, CCTV camera dealers in Patna, Best CCTV shop in Danapur, Z Plus Smart Vision, Biometric attendance system Patna, Home security systems, Wireless CCTV camera, Night vision camera, CCTV repair and maintenance Patna, Kaliket Nagar CCTV shop",
+  icons: {
+    icon: "/logo.jpeg",
+  },
 };
 
 export default function RootLayout({
