@@ -79,7 +79,7 @@ export default function Contact() {
                         {/* Map Integration */}
                         <div className="w-full h-[400px] rounded-3xl overflow-hidden border border-white/10 bg-neutral-900">
                             <iframe
-                                src="https://www.google.com/maps?q=Balaji+Apartment,Judge+Colony,Kaliket+Nagar,Danapur,Patna,Bihar&output=embed"
+                                src="https://www.google.com/maps?q=Z%20Plus%20Smart%20Vision%20CCTV%20Danapur%20Patna%20Bihar&output=embed"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}

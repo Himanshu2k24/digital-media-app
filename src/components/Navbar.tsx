@@ -8,12 +8,12 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "Products", href: "/products" },
+    { name: "Product", href: "/products" },
+    { name: "Service", href: "/services" },
     { name: "Gallery", href: "/gallery" },
     { name: "Get Website", href: "/get-website" },
     { name: "Contact", href: "/contact" },
+    { name: "About", href: "/about" },
 ];
 
 export default function Navbar() {
@@ -36,8 +36,8 @@ export default function Navbar() {
             )}
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
-                <Link href="/" className="text-xl md:text-2xl font-bold tracking-tighter text-white">
-                    Z Plus<span className="text-blue-500">SmartVision</span>
+                <Link href="/" className="flex items-center">
+                    <img src="/logo.jpeg" alt="Z Plus Smart Vision" className="h-10 w-auto" />
                 </Link>
 
                 {/* Desktop Nav */}

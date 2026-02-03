@@ -33,13 +33,13 @@ export default function Hero() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                        <Link
-                            href="/contact"
+                        <a
+                            href="tel:+919288661426"
                             className="group relative px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-bold text-lg transition-all flex items-center gap-2"
                         >
                             Abhi Rate Pata Karein
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                        </Link>
+                        </a>
                         <Link
                             href="/services"
                             className="px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white rounded-full font-bold text-lg transition-all backdrop-blur-sm"
