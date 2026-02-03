@@ -22,16 +22,16 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8">Our Premium Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
             <div className="p-6 bg-black rounded-xl border border-white/10">
-              <h3 className="text-xl font-bold mb-2">CCTV Installation</h3>
-              <p className="text-gray-400">HD, IP, and Wireless camera setups for home and business.</p>
+              <h3 className="text-xl font-bold mb-2">Home CCTV Camera Setup</h3>
+              <p className="text-gray-400">Professional CCTV Installation in Patna for complete home security.</p>
             </div>
             <div className="p-6 bg-black rounded-xl border border-white/10">
-              <h3 className="text-xl font-bold mb-2">Biometric Systems</h3>
-              <p className="text-gray-400">Advanced attendance and access control solutions.</p>
+              <h3 className="text-xl font-bold mb-2">Shop & Office CCTV Security</h3>
+              <p className="text-gray-400">Advanced attendance and access control solutions for businesses.</p>
             </div>
             <div className="p-6 bg-black rounded-xl border border-white/10">
-              <h3 className="text-xl font-bold mb-2">Networking</h3>
-              <p className="text-gray-400">Complete office wiring and Wi-Fi setup services.</p>
+              <h3 className="text-xl font-bold mb-2">HD & IP CCTV Camera Installation</h3>
+              <p className="text-gray-400">Authorized Hikvision & CP Plus Dealer for premium quality.</p>
             </div>
           </div>
           <a href="/services" className="text-blue-500 hover:text-blue-400 font-bold flex items-center justify-center gap-2">
@@ -57,6 +57,22 @@ export default function Home() {
       </section>
 
       <Testimonials />
+
+      <section className="py-20 bg-black border-t border-white/10">
+        <div className="container mx-auto px-6 text-center">
+          <h2 className="text-3xl font-bold mb-6">Why Choose Gaurav cctv camera cctv?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-4xl mx-auto">
+            <div className="bg-neutral-900 p-6 rounded-xl border border-white/5">
+              <h3 className="text-xl font-bold mb-2 text-blue-500">Authorized Dealer</h3>
+              <p className="text-gray-300">We are an <strong>Authorized Hikvision & CP Plus Dealer</strong>, ensuring you get genuine products with full warranty support.</p>
+            </div>
+            <div className="bg-neutral-900 p-6 rounded-xl border border-white/5">
+              <h3 className="text-xl font-bold mb-2 text-blue-500">Expert Service</h3>
+              <p className="text-gray-300">Best <strong>CCTV Camera Installation Service in patna</strong>. Our team provides professional installation and support for homes and offices.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="py-20 bg-neutral-900">
         <div className="container mx-auto px-6 text-center">

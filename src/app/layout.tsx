@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z Plus Smart Vision CCTV | Best Security System Dealer in Patna & Danapur",
-  description: "Z Plus Smart Vision is Patna's #1 trusted CCTV installation service provider. We offer HD/IP cameras, Biometric systems, Video Door Phones, and Networking solutions for home, office, and shops in Danapur, Kaliket Nagar, and Patna. Authorized dealer for Hikvision, CP Plus, Dahua.",
-  keywords: "CCTV installation service Patna, Security camera installation Patna, CCTV camera dealers in Patna, Best CCTV shop in Danapur, Z Plus Smart Vision, Hikvision dealer Patna, CP Plus installation, Biometric attendance system Patna, Home security systems, Wireless CCTV camera, Night vision camera, CCTV repair and maintenance Patna, Kaliket Nagar CCTV shop",
+  title: "CCTV Camera Installation Service in Danapur and Patna",
+  description: "Professional CCTV Installation in Patna. Authorized Hikvision & CP Plus Dealer. We offer Home CCTV Camera Setup, Shop & Office CCTV Security, and HD & IP CCTV Camera Installation. Best services by Gaurav CCTV Camera.",
+  keywords: "CCTV Camera Installation Service in patna, Professional CCTV Installation in patna, Home CCTV Camera Setup, Shop & Office CCTV Security, Authorized Hikvision & CP Plus Dealer, HD & IP CCTV Camera Installation, Gaurav cctv camera, Security camera installation Patna, CCTV camera dealers in Patna, Best CCTV shop in Danapur, Z Plus Smart Vision, Biometric attendance system Patna, Home security systems, Wireless CCTV camera, Night vision camera, CCTV repair and maintenance Patna, Kaliket Nagar CCTV shop",
 };
 
 export default function RootLayout({
